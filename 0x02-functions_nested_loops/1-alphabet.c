@@ -1,14 +1,12 @@
 #include "main.h"
 
 /**
- * main - entry point
+ * print_alphabet - check the code for Holberton School students.
  *
- * return: 0 (Success)
- *
+ * Return: Always 0.
  */
 
 void print_alphabet(void)
-
 {
 	char c = 'a';
 
@@ -16,6 +14,8 @@ void print_alphabet(void)
 	{
 		_putchar (c);
 		c++;
+
 	}
-	_putchar('\n');
+	_putchar ('\n');
+
 }
