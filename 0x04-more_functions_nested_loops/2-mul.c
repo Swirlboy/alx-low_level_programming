@@ -1,13 +1,13 @@
 #include "main.h"
 /**
  * mul - returns the product of its parameters
- * @i: int type number
- * @j: int type number
+ * @a: int type number
+ * @b: int type number
  * Return:0
  */
 
 
-int mul(int i, int j)
+int mul(int a, int b)
 {
-return (i * j);
+return (a * b);
 }
