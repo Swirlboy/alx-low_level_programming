@@ -18,4 +18,5 @@ File 9-set_string.c is a function that sets the value of a pointer to a char.
 
 File holberton.h is the header file with the functions prototypes.
 
-File _putchar.c is the file that contains the _putchar function.
+File _putchar.c is the file that contains the _putchar function
+:-) 
