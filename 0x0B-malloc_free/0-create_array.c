@@ -3,11 +3,11 @@
 #include <stdlib.h>
 
 /**
- * *create_array - creates an array of chars
- *  initialize with a specific char
- *  @size: size of the array
- *  @c: char to initialize
- *  Return: 0 if success, NULL if size is equal to 0
+ * *create_array - creates an array of chars,
+ * and initializes it with a specific char
+ * @size: size of the array
+ * @c: char to initialize
+ * Return: 0 if success, NULL if size is equal to 0
  */
 
 char *create_array(unsigned int size, char c)
@@ -20,7 +20,9 @@ char *create_array(unsigned int size, char c)
 	{
 		return (NULL);
 	}
-	b = malloc(sizeof(*b) * a);
+
+	b = malloc(sizeof(*b) * size);
+
 	if (b == NULL)
 		return (NULL);
 
@@ -29,5 +31,6 @@ char *create_array(unsigned int size, char c)
 		*(b + a) = c;
 		a++;
 	}
+
 	return (b);
 }
